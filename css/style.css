@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+nav{
+    background-color: teal;
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    font-size: 1.15rem;
+    font-weight:400;
+    z-index: 299999;
+}
+
+.nav-link{
+    color: white;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+
+.nav-link.active{
+    color: black !important;
+}
+
+
+header{
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+header .topbar{
+    height: 8rem;
+
+}
