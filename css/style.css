@@ -42,13 +42,17 @@ header .topbar{
 
 }
 
+.second{
+    background-image: url("https://www.curoveda.com/wp-content/uploads/2023/04/BG-1.png");
+
+}
 
 .about-section {
     padding: 60px 0;
-    width: 100%;
+    width: 75%;
     margin: auto;
     /* background-color: #f9f9f9; */
-    background-image: url("https://www.curoveda.com/wp-content/uploads/2023/04/BG-1.png");
+
 }
 .about-title {
     font-size: 2.5rem;
@@ -60,4 +64,110 @@ header .topbar{
     font-size: 1rem;
     line-height: 1.6;
     text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+/* card section */
+
+.card-section {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    border-radius: 0;
+
+
+}
+.card {
+    flex: 1;
+    padding: 5rem;
+    /* box-sizing: border-box; */
+    border-radius: 0;
+    background-color: white;
+    transition: 0.5s;
+    border:1px white;
+}
+
+.card:hover{
+    background-color: teal;
+    background-image: none;
+}
+
+
+
+.card h2 {
+    margin-top: 0;
+    color: black;
+    font-weight: 500;
+}
+.card p {
+    color: black;
+    font-weight: 400    ;
+    font-size: 1.1rem;
+}
+
+
+.card:hover h2  {
+    color: white;
+}
+
+
+
+
+.enquiry-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    z-index: 1000;
+}
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    padding-top: 60px;
+    z-index: 999;
+}
+.sidebar-content {
+    margin: 20px;
+}
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.sidebar form {
+    display: flex;
+    flex-direction: column;
+}
+.sidebar input, .sidebar textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.sidebar button {
+    padding: 10px;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
 }
