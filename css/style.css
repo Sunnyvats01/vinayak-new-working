@@ -45,14 +45,19 @@ header .topbar{
 
 .about-section {
     padding: 60px 0;
+    width: 100%;
+    margin: auto;
     /* background-color: #f9f9f9; */
+    background-image: url("https://www.curoveda.com/wp-content/uploads/2023/04/BG-1.png");
 }
 .about-title {
     font-size: 2.5rem;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: center;
+    color: teal;
 }
 .about-text {
     font-size: 1rem;
     line-height: 1.6;
+    text-align: center;
 }
