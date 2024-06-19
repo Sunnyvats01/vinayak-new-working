@@ -54,13 +54,13 @@ header .topbar{
     /* background-color: #f9f9f9; */
 
 }
-.about-title {
+.about-section .about-title {
     font-size: 2.5rem;
     margin-bottom: 10px;
     text-align: center;
     color: teal;
 }
-.about-text {
+.about-section .about-text {
     font-size: 1rem;
     line-height: 1.6;
     text-align: center;
