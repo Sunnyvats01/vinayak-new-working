@@ -42,10 +42,10 @@ header .topbar{
 
 }
 
-.second{
+/* .index-second{
     background-image: url("https://www.curoveda.com/wp-content/uploads/2023/04/BG-1.png");
 
-}
+} */
 
 .about-section {
     padding: 60px 0;
@@ -72,6 +72,8 @@ header .topbar{
 
 .card-section {
     display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
     width: 100%;
     margin: auto;
     background-color: white;
@@ -79,36 +81,52 @@ header .topbar{
 
 
 }
-.card {
+.card-section .card {
     flex: 1;
     padding: 5rem;
-    /* box-sizing: border-box; */
+    min-width: 25%;
+    box-sizing: border-box;
+    display: block;
     border-radius: 0;
     background-color: white;
     transition: 0.5s;
     border:1px white;
 }
 
-.card:hover{
+@media (max-width: 1024px) {
+    .card-section .card {
+        min-width: 50%;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .card-section .card {
+        min-width: 100%;
+    }
+    
+}
+
+.card-section .card:hover{
     background-color: teal;
     background-image: none;
 }
 
 
 
-.card h2 {
+.card-section .card h2 {
     margin-top: 0;
     color: black;
     font-weight: 500;
 }
-.card p {
+.card-section .card p {
     color: black;
     font-weight: 400    ;
     font-size: 1.1rem;
 }
 
 
-.card:hover h2  {
+.card-section .card:hover h2  {
     color: white;
 }
 
@@ -170,6 +188,25 @@ header .topbar{
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+}
+
+.index-third{
+    background-image: url("https://www.curoveda.com/wp-content/uploads/2023/04/BG-2.png");
+}
+
+.why-choose-us .container  .card {
+    transition: transform 0.2s;
+    padding: 2rem;
+}
+.why-choose-us .container  .card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.why-choose-us .container .section-heading {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
