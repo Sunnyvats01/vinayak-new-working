@@ -6,7 +6,7 @@
 }
 
 nav{
-    background-color: teal;
+    background-color: #1A4739;
 }
 
 .navbar-nav{
@@ -49,7 +49,7 @@ header .topbar{
 
 .about-section {
     padding: 60px 0;
-    width: 75%;
+    width: 85%;
     margin: auto;
     /* background-color: #f9f9f9; */
 
@@ -58,13 +58,13 @@ header .topbar{
     font-size: 2.5rem;
     margin-bottom: 10px;
     text-align: center;
-    color: teal;
+    color: #1A4739;
 }
 .about-section .about-text {
     font-size: 1rem;
     line-height: 1.6;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 
@@ -108,7 +108,7 @@ header .topbar{
 }
 
 .card-section .card:hover{
-    background-color: teal;
+    background-color: #1A4739;
     background-image: none;
 }
 
@@ -130,6 +130,10 @@ header .topbar{
     color: white;
 }
 
+.card-section .card:hover p{
+    color: white;
+}
+
 
 
 
@@ -138,7 +142,7 @@ header .topbar{
     bottom: 20px;
     right: 20px;
     padding: 10px 20px;
-    background-color: teal;
+    background-color: #1A4739;
     color: white;
     border: none;
     border-radius: 5px;
@@ -182,7 +186,7 @@ header .topbar{
 }
 .sidebar button {
     padding: 10px;
-    background-color: teal;
+    background-color: #1A4739;
     color: white;
     border: none;
     border-radius: 5px;
@@ -211,3 +215,44 @@ header .topbar{
 
 
 
+
+
+
+/* Custom CSS for specific styles */
+
+.product-range .container h2{
+    text-align: center;
+    margin-bottom: 2rem ;
+}
+
+
+.product-range .container .card {
+    /* border: 1px solid rgba(0, 0, 0, 0.125); */
+    border-radius: 0.25rem;
+    transition: box-shadow 0.3s ease-in-out;
+    border: none;
+    margin: auto;
+}
+
+.product-range .container  .card:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.product-range .container  .card-title {
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.product-range .container .card-text {
+    color: #333;
+}
+
+.product-range .container .btn-primary {
+    background-color: black;
+    border-color: black;
+}
+
+.product-range .container .btn-primary:hover {
+    background-color: black;
+    border-color: black;
+}
